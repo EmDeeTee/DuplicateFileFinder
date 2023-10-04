@@ -11,8 +11,7 @@ if (args.Length > 0) {
     }
 }
 
-Mole mole = new();
-var duplicates = mole.DigIn(searchDir);
+var duplicates = Mole.DigIn(searchDir);
 
 if (duplicates.Count == 0) {
     Console.WriteLine($"The mole was not able to find any duplicate files in {searchDir}");

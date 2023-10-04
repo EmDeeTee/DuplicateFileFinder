@@ -7,13 +7,16 @@ using System.Security;
 using System.Security.Cryptography;
 
 namespace DuplicateFileFinderCs {
-    public class Mole {
+    /// <summary>
+    /// Kokofthesos
+    /// </summary>
+    public static class Mole {
 
         /// <summary>
-        /// Return a Dictionary<string, string> of all duplicate files found in "path" 
+        /// Return all duplicate files found in "path" 
         /// </summary>
-        /// <param name="path"></param>
-        public Dictionary<string, string> DigIn(string path) {
+        /// <param name="path">ughh/param>
+        public static Dictionary<string, string> DigIn(string path) {
             Console.WriteLine("The Nibdz is digging...");
 
             string[] files = Directory.GetFiles(path, "*.*", SearchOption.AllDirectories);
