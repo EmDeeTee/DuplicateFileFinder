@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DuplicateFileFinderCs": {
+      "commandName": "Project",
+      "workingDirectory": "F:\\src\\visual studio\\DuplicateFileFinderCs\\work"
+    }
+  }
+}
